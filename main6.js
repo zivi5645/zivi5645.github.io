@@ -1,4 +1,3 @@
-
 var miutes=document.querySelector(".miutes")
 var seconds=document.querySelector(".seconds")
 
