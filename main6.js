@@ -30,8 +30,6 @@ start.addEventListener('click',function(){
    
     },1000)
 })
-
-
 stoop.addEventListener('click',function(){
     clearInterval(idInterval)
 })
