@@ -2,13 +2,13 @@ body {
   background-color: rgb(167, 87, 87);
 }
 .mmiutes {
-  width: 10%;
-  height: 10%;
+  width: 12%;
+  height: 12%;
   font-size: 3vw;
   text-align: center;
   position: absolute;
-  left: 7%;
-  top: 4%;
+  left: 8%;
+  top: 10%;
 }
 .miutes {
   width: 130%;
@@ -27,7 +27,7 @@ body {
 .seconds {
   width: 130%;
   height: 120%;
-  font-size: 3vw;
+  font-size: 5vw;
 }
 .clock {
   font-size: 8vw;
