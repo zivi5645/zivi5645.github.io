@@ -4,8 +4,8 @@ var seconds = document.querySelector(".seconds");
 var start = document.querySelector(".start");
 var stoop = document.querySelector(".stop");
 var idInterval;
-
 var catimage = document.querySelector("img");
+
 
 start.addEventListener("click", function () {
   console.log(seconds.value);
@@ -33,7 +33,6 @@ start.addEventListener("click", function () {
 stoop.addEventListener("click", function () {
   clearInterval(idInterval);
 });
-
 async function fetchimg() {
   var img = await fetch("https://aws.random.cat/meow");
   var json = await img.json();
