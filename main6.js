@@ -33,7 +33,6 @@ start.addEventListener("click", function () {
 stoop.addEventListener("click", function () {
   clearInterval(idInterval);
 });
-
 async function fetchimg() {
   var img = await fetch("https://aws.random.cat/meow");
   var json = await img.json();
