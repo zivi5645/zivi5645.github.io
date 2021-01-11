@@ -17,6 +17,7 @@ var stoop = document.querySelector(".stop");
 var idInterval;
 var catimage = document.querySelector("img");
 
+
 start.addEventListener("click", function () {
   // console.log(seconds.value);
   var time = seconds.value;
@@ -40,12 +41,25 @@ start.addEventListener("click", function () {
       fetchimg();
       // catimage.style.display='blok'
     }
-    // console.log(clock);
+     console.log(clock);
   }, 1000);
   
 });
 stoop.addEventListener("click", function () {
   clearInterval(idInterval);
 });
+<<<<<<< HEAD
 
 
+=======
+async function fetchimg() {
+  var img = await fetch("https://aws.random.cat/meow");
+  var json = await img.json();
+  console.log(json);
+  console.log("cat elt is", catimage);
+  catimage.src = json.file; // -כאן התיקון
+  //-היה חסר רק את ה-
+  //.file
+  console.log("inserted cat at", catimage.src);
+}
+>>>>>>> 1dda480ed650fa5cf4d7ff0905da6f01324c28d0
